@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Robot', sans-serief;
+}
+body{
+	background: url(q.jpg);
+	background-size: cover;
+}
+.faq-blok{
+	padding-bottom: 25px;
+}
+#faq{
+	width: 350px;
+	text-align: left;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 10vh;
+}
+label{
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 40px;
+	cursor: pointer;
+	color: black;
+	border-radius: 3px;
+	line-height: 40px;
+	font-size: 16px;
+	background-color: skyblue;
+}
+label:hover{
+	background-color: salmon;
+}
+input:checked + label,
+input:checked + label:hover{
+	background-color: salmons;
+	color: black;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+input{
+	display: none;
+
+
+}
+p{
+	color: white;
+	background-color: salmon;
+}
+.button{
+	position: absolute;
+	top: 90%;
+	left:90%;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6%;
+	background-color: salmon;
+}
+.btn:hover{
+	background-color: skyblue;
+	color: black;
